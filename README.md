@@ -1,10 +1,6 @@
 # praktikum6
 
-# Flowchart
-
-
-
-# Codingan 1
+# CODINGAN 1
 ```
 kontak = {
   "rifai": "083183265423",
@@ -42,7 +38,7 @@ for nama, nomor in kontak.items():
      print( "- " + nama + ":"+ nomor)
 ```
 
-# Hasil Codingan
+# HASIL CODINGAN
 
 ![Cuplikan layar 2024-11-23 135538](https://github.com/user-attachments/assets/3c3250c4-7250-46f0-9d52-37cb3812c82b)
 
@@ -50,7 +46,7 @@ for nama, nomor in kontak.items():
 
 ![flowchart praktikum6](https://github.com/user-attachments/assets/51e030a5-a129-4979-bd6b-932708dbbb85)
 
-# Codingan 2
+# CODINGAN 2
 
 ```
 # Dictionary untuk menyimpan data mahasiswa
@@ -139,3 +135,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+# HASIL CODINGAN
+
+![Cuplikan layar 2024-11-23 142528](https://github.com/user-attachments/assets/5709839d-6922-49d1-b948-01d83f8c84d4)
