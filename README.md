@@ -139,3 +139,39 @@ if __name__ == "__main__":
 # HASIL CODINGAN
 
 ![Cuplikan layar 2024-11-23 142528](https://github.com/user-attachments/assets/5709839d-6922-49d1-b948-01d83f8c84d4)
+
+# PENJELASAN CODINGAN 2
+
+Berikut adalah ringkasan ulang program manajemen data mahasiswa:  
+
+1. Menu Utama:  
+   Program dimulai dengan menampilkan pilihan berikut:  
+   - Lihat data mahasiswa: Menampilkan daftar mahasiswa yang ada.  
+   - Tambah data mahasiswa: Menambahkan informasi mahasiswa baru.  
+   - Ubah data mahasiswa: Memperbarui informasi mahasiswa tertentu.  
+   - Hapus data mahasiswa: Menghapus data mahasiswa berdasarkan NIM.  
+   - Cari data mahasiswa: Mencari data mahasiswa dengan NIM tertentu.  
+   - Keluar: Mengakhiri program.  
+
+2. Lihat Data Mahasiswa:  
+   Jika pengguna memilih opsi ini, program akan menampilkan daftar mahasiswa. Jika tidak ada data, program akan menampilkan pesan "TIDAK ADA DATA".  
+
+3. Tambah Data Mahasiswa:  
+   - Program meminta pengguna memasukkan NIM.  
+   - Jika NIM sudah ada, program akan memberi pesan "DATA SUDAH ADA".  
+   - Jika NIM belum ada, program meminta pengguna mengisi data tambahan seperti nama, nilai tugas, nilai UTS, dan nilai UAS.  
+   - Program akan menghitung nilai akhir dan menyimpan data tersebut.  
+
+4. Ubah Data Mahasiswa:  
+   - Pengguna diminta memasukkan NIM mahasiswa yang ingin diperbarui.  
+   - Jika NIM ditemukan, program meminta pengguna mengedit data seperti nama, nilai tugas, nilai UTS, dan nilai UAS.  
+   - Program akan menghitung ulang nilai akhir dan menyimpan perubahan.  
+
+5. Hapus Data Mahasiswa:  
+   - Pengguna diminta memasukkan NIM mahasiswa yang ingin dihapus.  
+   - Jika NIM ditemukan, data akan dihapus dari database.  
+
+6. Cari Data Mahasiswa:  
+   - Pengguna diminta memasukkan NIM mahasiswa yang ingin dicari.  
+   - Jika NIM ditemukan, program akan menampilkan informasi mahasiswa.  
+   - Jika tidak ditemukan, program akan memberi pesan "DATA TIDAK DITEMUKAN".  
