@@ -2,7 +2,7 @@
 
 # Flowchart
 
-![flowchart praktikum6](https://github.com/user-attachments/assets/51e030a5-a129-4979-bd6b-932708dbbb85)
+
 
 # Codingan 1
 ```
@@ -45,3 +45,7 @@ for nama, nomor in kontak.items():
 # Hasil Codingan
 
 ![Cuplikan layar 2024-11-23 135538](https://github.com/user-attachments/assets/3c3250c4-7250-46f0-9d52-37cb3812c82b)
+
+# flowchart
+
+![flowchart praktikum6](https://github.com/user-attachments/assets/51e030a5-a129-4979-bd6b-932708dbbb85)
