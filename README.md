@@ -7,39 +7,39 @@
 # Codingan 1
 ```
 kontak = {
-"alpi": "085710092053",
-"sultan": "087815646769"
+  "rifai": "083183265423",
+  "maysa": "087818766769"
 }
-print("Kontak alpi:", kontak["alpi"])
+print("Kontak rifai:", kontak["rifai"])
 
-kontak["aldo"] = "082127150958"
-kontak["sultan"] = "087815646769"
-
-print("Semua Nama:")
-for nama in kontak:
-print(nama)
-
-print("Semua Nomor:")
-for nomor in kontak.values():
-print(nomor)
-
-print("Daftar Nama dan Nomornya:")
-for nama, nomor in kontak.items():
-print(nama + ": " + nomor)
-
-del kontak["sultan"]
+kontak["maul"] = "082127150958"
+kontak["rido"] = "087815646769"
 
 print("Semua Nama:")
 for nama in kontak:
-print(nama)
+  print("- " + nama)
 
 print("Semua Nomor:")
 for nomor in kontak.values():
-print(nomor)
+  print("- " + nomor)
 
 print("Daftar Nama dan Nomornya:")
 for nama, nomor in kontak.items():
- print(nama + ":"+ nomor)
+  print( "- " + nama + ": " + nomor)
+
+del kontak["maysa"]
+
+print("Semua Nama setelah penghapusan :")
+for nama in kontak:
+  print( "- " + nama)
+
+print("Semua Nomor setelah penghapusan :")
+for nomor in kontak.values():
+  print( "- " + nomor)
+
+print("Daftar Nama dan Nomornya setelah penghapusan :")
+for nama, nomor in kontak.items():
+     print( "- " + nama + ":"+ nomor)
 ```
 
 # Hasil Codingan
