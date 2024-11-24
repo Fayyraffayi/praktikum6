@@ -42,6 +42,63 @@ for nama, nomor in kontak.items():
 
 ![Cuplikan layar 2024-11-23 135538](https://github.com/user-attachments/assets/3c3250c4-7250-46f0-9d52-37cb3812c82b)
 
+1. Pertama, buat kamus kontak:
+
+       kontak = {
+       "rifai": "083183265423",
+       "maysa": "087818766769"
+       }
+Ini membuat kamus dengan 2 pasang key-value, dimana nama sebagai key dan nomor telepon sebagai value.
+
+2. Hubungi Rifai:
+
+       print("Kontak rifai:", kontak["rifai"])
+    Mengakses value dari key "rifai" untuk menampilkan nomornya.
+
+3. Hubungi kami:
+
+       kontak["maul"] = "082127150958"
+       kontak["rido"] = "087815646769"
+    Menambahkan 2 kontak baru ke dalam kamus.
+
+4. Mencetak semua nama (kunci):
+
+       print("Semua Nama:")
+       for nama in kontak:
+        print("- " + nama)
+Melakukan loop untuk mencetak semua key (nama) dalam kamus.
+
+5. Mencetak semua nomor (nilai):
+
+       print("Semua Nomor:")
+       for nomor in kontak.values():
+        print("- " + nomor)
+Menggunakan metode .values() untuk mencetak semua nilai (nomor) dalam kamus.
+
+6. Mencetak nama dan nomor bersama:
+
+       print("Daftar Nama dan Nomornya:")
+       for nama, nomor in kontak.items():
+       print("- " + nama + ": " + nomor)
+Menggunakan metode .items() untuk mencetak pasangan key-value (nama dan nomor).
+
+7. Menghapus kontak:
+   
+       del kontak["maysa"]
+Menghapus kontak dengan kunci "maysa" dari kamus.
+
+9. Terakhir, mencetak kembali semua data setelah penghapusan:
+
+Mencetak semua nama yang tersisa
+Mencetak semua nomor yang tersisa
+Mencetak semua pasangan nama dan nomor yang tersisa
+
+Hasil running kode menunjukkan:
+Awalnya ada 4 kontak (rifai, maysa, maul, rido)
+Setelah penghapusan maysa, tersisa 3 kontak
+Data berhasil dimanipulasi (ditambah dan dihapus) dengan benar
+Semua kamus operasi (akses, tambah, hapus, loop) berfungsi dengan baik
+
 # flowchart
 
 ![flowchart praktikum6](https://github.com/user-attachments/assets/51e030a5-a129-4979-bd6b-932708dbbb85)
