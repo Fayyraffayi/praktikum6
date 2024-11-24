@@ -42,6 +42,8 @@ for nama, nomor in kontak.items():
 
 ![Cuplikan layar 2024-11-23 135538](https://github.com/user-attachments/assets/3c3250c4-7250-46f0-9d52-37cb3812c82b)
 
+# Penjelasan Codingan 1
+
 1. Pertama, buat kamus kontak:
 
        kontak = {
@@ -87,17 +89,17 @@ Menggunakan metode .items() untuk mencetak pasangan key-value (nama dan nomor).
        del kontak["maysa"]
 Menghapus kontak dengan kunci "maysa" dari kamus.
 
-9. Terakhir, mencetak kembali semua data setelah penghapusan:
+8. Terakhir, mencetak kembali semua data setelah penghapusan:
 
-Mencetak semua nama yang tersisa
-Mencetak semua nomor yang tersisa
-Mencetak semua pasangan nama dan nomor yang tersisa
+- Mencetak semua nama yang tersisa
+- Mencetak semua nomor yang tersisa
+- Mencetak semua pasangan nama dan nomor yang tersisa
 
 Hasil running kode menunjukkan:
-Awalnya ada 4 kontak (rifai, maysa, maul, rido)
-Setelah penghapusan maysa, tersisa 3 kontak
-Data berhasil dimanipulasi (ditambah dan dihapus) dengan benar
-Semua kamus operasi (akses, tambah, hapus, loop) berfungsi dengan baik
+- Awalnya ada 4 kontak (rifai, maysa, maul, rido)
+- Setelah penghapusan maysa, tersisa 3 kontak
+- Data berhasil dimanipulasi (ditambah dan dihapus) dengan benar
+- Semua kamus operasi (akses, tambah, hapus, loop) berfungsi dengan baik
 
 # flowchart
 
